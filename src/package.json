@@ -1,0 +1,29 @@
+{
+  "name": "kwena_backend",
+  "version": "1.0.0",
+  "description": "backend for kwena mobile neighbourhood app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "kwena.git"
+  },
+  "keywords": [
+    "kwena",
+    "social",
+    "mobile",
+    "neighbourhood"
+  ],
+  "author": "Tebogo Kgopa",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.9.27"
+  }
+}
